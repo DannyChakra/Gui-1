@@ -1,0 +1,110 @@
+/* 91.461 Assignment: HW3
+Danny Abou-Chakra, UMass Lowell Computer Science, daboucha@cs.uml.edu
+Copyright (c) 2019 by Danny Abou-Chakra. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author */
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/* for some reason html was not using all the page */
+html{
+	height: 100%;
+}
+/* Sets up the linear-gradient for the background */
+body {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(to bottom, #FFFFFF, #00569f);
+	background-repeat: no-repeat;
+}
+/* Centers wrapper and gives it a width of 80% */
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #90C8E3;
+	min-width: 600px;
+}
+
+.resort{
+ 	color: #90C8E3;
+	font-weight: bold;
+}
+/* placing the sunset image to the left */
+header {
+	background: url("sunset.jpg") no-repeat #000032;
+	color: #FFFFFF;
+	background-position: right;
+	padding: 3px;
+}
+/* float left for navigation with a fixed width */
+nav {
+	width: 170px;
+	float: left;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	margin: 0;
+	font-weight: bold;
+	padding-left: 10px
+}
+
+nav a:link{
+	color: #000032;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+#content {
+	padding: 1px 20px 20px 30px;
+	background-color: #FFFFFF;
+	margin-left: 185px;
+}
+/* float img to the left so the text can be on the right */
+#content img{
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+#content ul {
+	list-style-image: url(marker.gif);
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 6px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+/* placed footer under the image */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: left;
+	margin-left: 185px;
+	background-color: #FFFFFF;
+	padding: 30px;
+}
